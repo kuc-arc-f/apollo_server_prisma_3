@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "no-var": "error",
+    "no-console": "off",
+    "no-extra-semi": "warn",
+    "no-undef": "warn"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2017    
+  }    
+}
