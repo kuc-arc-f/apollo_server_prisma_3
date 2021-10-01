@@ -15,11 +15,16 @@ const scheme = {
       id: Int!
       name: String
     }
+    type Category {
+      id: Int!
+      name: String
+    }    
     type Note {
       id: Int!
       title: String
       content: String
       userId: Int! 
+      category: Category
       noteTag: [NoteTag]
     }
     type Task {

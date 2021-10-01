@@ -66,6 +66,10 @@ const resolvers = {
     noteDelete: async (parent, args, context) => {
       const ret = await LibNote.noteDelete(args)
       return ret
+    },
+    categoryAdd: async (parent, args, context) => {
+      const ret = await LibNote.categoryAdd(args)
+      return ret
     },    
   }
 };
