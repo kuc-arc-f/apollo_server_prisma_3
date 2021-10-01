@@ -63,6 +63,10 @@ const resolvers = {
       const ret = await LibNote.noteTagAdd(args)
       return ret
     },
+    noteDelete: async (parent, args, context) => {
+      const ret = await LibNote.noteDelete(args)
+      return ret
+    },    
   }
 };
 

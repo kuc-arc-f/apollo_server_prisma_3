@@ -8,5 +8,6 @@ type Mutation {
   noteAdd(title: String!, content: String!): Note
   noteUpdate(id: Int!, title: String!, content: String!): Note
   noteTagAdd(noteId: Int!, name: String!): NoteTag
+  noteDelete(id: Int!): Note
 }
 `;
